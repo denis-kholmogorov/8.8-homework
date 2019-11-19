@@ -1,6 +1,9 @@
 import core.Line;
 import core.Station;
 import junit.framework.TestCase;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -11,8 +14,8 @@ public class RouteCalculatorTests extends TestCase {
     ArrayList<Station> routeNoConnector;
     ArrayList<Station> routeOneConnector;
     ArrayList<Station> routeTwoConnector;
-    ArrayList<Station> stations1 = new ArrayList<>();
-    ArrayList<Station> stations2 = new ArrayList<>();
+    ArrayList<Station> connection1 = new ArrayList<>();
+    ArrayList<Station> connection2 = new ArrayList<>();
     StationIndex stationIndex = new StationIndex();
 
     Line line1 = new Line(1, "Первая");
@@ -26,7 +29,7 @@ public class RouteCalculatorTests extends TestCase {
     Station station31 = new Station("ТридцатьПервая", line3);
     Station station32 = new Station("ТридцатьВторая", line3);
 
-    @Override
+    @BeforeClass
     protected void setUp() throws Exception {
 
         line1.addStation(station11);
@@ -58,37 +61,71 @@ public class RouteCalculatorTests extends TestCase {
         stationIndex.addLine(line1);
         stationIndex.addLine(line2);
         stationIndex.addLine(line3);
-        stations1.add(station13);
-        stations1.add(station21);
-        stations2.add(station22);
-        stations2.add(station31);
-        stationIndex.addConnection(stations1);
-        stationIndex.addConnection(stations2);
+        connection1.add(station13);
+        connection1.add(station21);
+        connection2.add(station22);
+        connection2.add(station31);
+        stationIndex.addConnection(connection1);
+        stationIndex.addConnection(connection2);
     }
-
+    @Test
     public void testGetRouteOnTheLineNoConnector(){
         double actual = RouteCalculator.calculateDuration(routeNoConnector);
         double expected = 5;
-        assertEquals(expected, actual);
+        assertEquals("Wrong! Time no connector test",expected, actual);
     }
 
+    @Test
     public void testGetRouteOnTheLineOneConnector(){
         double actual = RouteCalculator.calculateDuration(routeOneConnector);
         double expected = 11;
-        assertEquals(expected, actual);
+        assertEquals("Wrong! Time one connector test", expected, actual);
     }
 
+    @Test
     public void testGetRouteOnTheLineTwoConnector(){
         double actual = RouteCalculator.calculateDuration(routeTwoConnector);
         double expected = 17;
-        assertEquals(expected, actual);
+        assertEquals("Wrong! Time two connector test", expected, actual);
     }
 
-    public void testGetShortestRoute(){
+    @Test
+    public void testGetShortestRouteNoConnector(){
         RouteCalculator calculator = new RouteCalculator(stationIndex);
-        List<Station> actual = calculator.getShortestRoute(station11, station32);
-        List<Station> expected = Arrays.asList(station11, station12, station13, station21, station22, station31, station32);
-        assertEquals(expected, actual);
+        List<Station> actual = calculator.getShortestRoute(station11, station13);
+        List<Station> expected = Arrays.asList(station11, station12, station13);
+        assertEquals("Wrong! Short route connector", expected, actual);
+    }
+    @Test
+    public void testGetShortestRouteOneConnector(){
+        RouteCalculator calculator = new RouteCalculator(stationIndex);
+        List<Station> actual = calculator.getShortestRoute(station21, station32);
+        List<Station> expected = Arrays.asList(station21, station22, station31, station32);
+        assertEquals("Wrong! Short route one connector", expected, actual);
+    }
+
+    @Test
+    public void testGetShortestRouteTwoConnector(){
+        RouteCalculator calculator = new RouteCalculator(stationIndex);
+        List<Station> actual = calculator.getShortestRoute(station32, station11);
+        List<Station> expected = Arrays.asList(station32, station31, station22, station21, station13, station12, station11 );
+        assertEquals("Wrong! Short route two connector", expected, actual);
+
+    }
+
+    @Test
+    public void testGetShortestNotSameExpected(){
+        RouteCalculator calculator = new RouteCalculator(stationIndex);
+        List<Station> actual = calculator.getShortestRoute(station11, station13);
+        List<Station> expected = Arrays.asList(station11, station12, station13);
+        assertNotSame("Wrong! Routers are same", expected, actual);
+    }
+
+    @Test
+    public void testGetShortestNotNull(){
+        RouteCalculator calculator = new RouteCalculator(stationIndex);
+        List<Station> actual = calculator.getShortestRoute(station11, station13);
+        assertNotNull("Wrong! List is null", actual);
     }
 }
 

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a5e1234-1100-4917-9bdf-687150e205e8" name="Default Changelist" comment="" />
+    <list default="true" id="8a5e1234-1100-4917-9bdf-687150e205e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RouteCalculatorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RouteCalculatorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RouteCalculatorTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RouteCalculatorTests.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,12 +33,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1Tmo2SC1DSH6Z9cOHTNZpg0OvXA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559622580090" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
@@ -54,7 +64,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RouteCalculatorTests">
+  <component name="RunManager" selected="JUnit.All in SPBMetro">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SPBMetro" />
@@ -81,9 +91,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RouteCalculatorTests" />
         <item itemvalue="JUnit.All in SPBMetro" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.RouteCalculatorTests" />
       </list>
     </recent_temporary>
   </component>
@@ -125,22 +135,22 @@
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
     <state x="690" y="403" width="292" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1021@0.0.1680.1021" timestamp="1574074452758" />
-    <state width="1634" height="270" key="GridCell.Tab.0.bottom" timestamp="1574165658761">
+    <state width="1634" height="270" key="GridCell.Tab.0.bottom" timestamp="1574168537937">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1021@0.0.1680.1021" timestamp="1574165658761" />
-    <state width="1634" height="270" key="GridCell.Tab.0.center" timestamp="1574165658760">
+    <state width="1634" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1021@0.0.1680.1021" timestamp="1574168537937" />
+    <state width="1634" height="270" key="GridCell.Tab.0.center" timestamp="1574168537937">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.center/0.0.1680.1021@0.0.1680.1021" timestamp="1574165658760" />
-    <state width="1634" height="270" key="GridCell.Tab.0.left" timestamp="1574165658759">
+    <state width="1634" height="270" key="GridCell.Tab.0.center/0.0.1680.1021@0.0.1680.1021" timestamp="1574168537937" />
+    <state width="1634" height="270" key="GridCell.Tab.0.left" timestamp="1574168537936">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.left/0.0.1680.1021@0.0.1680.1021" timestamp="1574165658759" />
-    <state width="1634" height="270" key="GridCell.Tab.0.right" timestamp="1574165658760">
+    <state width="1634" height="270" key="GridCell.Tab.0.left/0.0.1680.1021@0.0.1680.1021" timestamp="1574168537936" />
+    <state width="1634" height="270" key="GridCell.Tab.0.right" timestamp="1574168537937">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.right/0.0.1680.1021@0.0.1680.1021" timestamp="1574165658760" />
+    <state width="1634" height="270" key="GridCell.Tab.0.right/0.0.1680.1021@0.0.1680.1021" timestamp="1574168537937" />
     <state width="1634" height="212" key="GridCell.Tab.1.bottom" timestamp="1574089666745">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
