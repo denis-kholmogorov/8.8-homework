@@ -115,7 +115,7 @@ public class RouteCalculator
                 }
             }
         }
-        if (route.size() != 0) {
+        if (route.size() != 0) { // добавил проверку для перехода расчета с двумя пересадками
             return route;
         }
         return null;
