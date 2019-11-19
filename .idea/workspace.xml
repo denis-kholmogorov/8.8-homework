@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a5e1234-1100-4917-9bdf-687150e205e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Tmo2SC1DSH6Z9cOHTNZpg0OvXA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559622580090" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RouteCalculatorTests">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SPBMetro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in SPBMetro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SPBMetro" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteCalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SPBMetro" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RouteCalculatorTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RouteCalculatorTests" />
+        <item itemvalue="JUnit.All in SPBMetro" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a5e1234-1100-4917-9bdf-687150e205e8" name="Default Changelist" comment="" />
+      <created>1559569584327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559569584327</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="99" y="100" width="1482" height="822" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1574161369538">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state x="99" y="100" width="1482" height="822" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1680.1021@0.0.1680.1021" timestamp="1574161369538" />
+    <state x="648" y="223" width="376" height="570" key="#com.intellij.ide.util.MemberChooser" timestamp="1574150465442">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state x="648" y="223" width="376" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1021@0.0.1680.1021" timestamp="1574150465442" />
+    <state x="690" y="403" width="292" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1574074452758">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state x="690" y="403" width="292" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1021@0.0.1680.1021" timestamp="1574074452758" />
+    <state width="1634" height="270" key="GridCell.Tab.0.bottom" timestamp="1574165658761">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state width="1634" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1021@0.0.1680.1021" timestamp="1574165658761" />
+    <state width="1634" height="270" key="GridCell.Tab.0.center" timestamp="1574165658760">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state width="1634" height="270" key="GridCell.Tab.0.center/0.0.1680.1021@0.0.1680.1021" timestamp="1574165658760" />
+    <state width="1634" height="270" key="GridCell.Tab.0.left" timestamp="1574165658759">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state width="1634" height="270" key="GridCell.Tab.0.left/0.0.1680.1021@0.0.1680.1021" timestamp="1574165658759" />
+    <state width="1634" height="270" key="GridCell.Tab.0.right" timestamp="1574165658760">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state width="1634" height="270" key="GridCell.Tab.0.right/0.0.1680.1021@0.0.1680.1021" timestamp="1574165658760" />
+    <state width="1634" height="212" key="GridCell.Tab.1.bottom" timestamp="1574089666745">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state width="1634" height="212" key="GridCell.Tab.1.bottom/0.0.1680.1021@0.0.1680.1021" timestamp="1574089666745" />
+    <state width="1634" height="212" key="GridCell.Tab.1.center" timestamp="1574089666745">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state width="1634" height="212" key="GridCell.Tab.1.center/0.0.1680.1021@0.0.1680.1021" timestamp="1574089666745" />
+    <state width="1634" height="212" key="GridCell.Tab.1.left" timestamp="1574089666745">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state width="1634" height="212" key="GridCell.Tab.1.left/0.0.1680.1021@0.0.1680.1021" timestamp="1574089666745" />
+    <state width="1634" height="212" key="GridCell.Tab.1.right" timestamp="1574089666745">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state width="1634" height="212" key="GridCell.Tab.1.right/0.0.1680.1021@0.0.1680.1021" timestamp="1574089666745" />
+    <state x="533" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1574149805711">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state x="533" y="338" key="com.intellij.ide.util.TipDialog/0.0.1680.1021@0.0.1680.1021" timestamp="1574149805711" />
+    <state x="614" y="216" width="444" height="584" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1574150377005">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state x="614" y="216" width="444" height="584" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1021@0.0.1680.1021" timestamp="1574150377005" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SPBMetro$Main.ic" NAME="Main Coverage Results" MODIFIED="1574077348484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
