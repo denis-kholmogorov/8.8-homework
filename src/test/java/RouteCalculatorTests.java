@@ -11,26 +11,45 @@ import java.util.List;
 
 public class RouteCalculatorTests extends TestCase {
 
+    Line line1;
+    Line line2;
+    Line line3;
+    Station station11;
+    Station station12;
+    Station station13;
+    Station station21;
+    Station station22;
+    Station station31;
+    Station station32;
     ArrayList<Station> routeNoConnector;
     ArrayList<Station> routeOneConnector;
     ArrayList<Station> routeTwoConnector;
-    ArrayList<Station> connection1 = new ArrayList<>();
-    ArrayList<Station> connection2 = new ArrayList<>();
-    StationIndex stationIndex = new StationIndex();
+    ArrayList<Station> connection1;
+    ArrayList<Station> connection2;
+    StationIndex stationIndex;
 
-    Line line1 = new Line(1, "Первая");
-    Line line2 = new Line(2, "Вторая");
-    Line line3 = new Line(3, "Третья");
-    Station station11 = new Station("Одинадцатая", line1);
-    Station station12 = new Station("Двенадцатая", line1);
-    Station station13 = new Station("Тринадцатая", line1);
-    Station station21 = new Station("ДвадцатьПервая", line2);
-    Station station22 = new Station("ДвадцатьВторая", line2);
-    Station station31 = new Station("ТридцатьПервая", line3);
-    Station station32 = new Station("ТридцатьВторая", line3);
+
+
 
     @BeforeClass
     protected void setUp() throws Exception {
+
+        stationIndex = new StationIndex();
+        routeNoConnector = new ArrayList<>();
+        connection1 = new ArrayList<>();
+        connection2 = new ArrayList<>();
+
+        line1 = new Line(1, "Первая");
+        line2 = new Line(2, "Вторая");
+        line3 = new Line(3, "Третья");
+
+        station11 = new Station("Одинадцатая", line1);
+        station12 = new Station("Двенадцатая", line1);
+        station13 = new Station("Тринадцатая", line1);
+        station21 = new Station("ДвадцатьПервая", line2);
+        station22 = new Station("ДвадцатьВторая", line2);
+        station31 = new Station("ТридцатьПервая", line3);
+        station32 = new Station("ТридцатьВторая", line3);
 
         line1.addStation(station11);
         line1.addStation(station12);
@@ -40,7 +59,7 @@ public class RouteCalculatorTests extends TestCase {
         line3.addStation(station31);
         line3.addStation(station32);
 
-        routeNoConnector = new ArrayList<>();
+
         routeNoConnector.add(station11);
         routeNoConnector.add(station12);
         routeNoConnector.add(station13);
@@ -61,10 +80,12 @@ public class RouteCalculatorTests extends TestCase {
         stationIndex.addLine(line1);
         stationIndex.addLine(line2);
         stationIndex.addLine(line3);
+
         connection1.add(station13);
         connection1.add(station21);
         connection2.add(station22);
         connection2.add(station31);
+
         stationIndex.addConnection(connection1);
         stationIndex.addConnection(connection2);
     }
