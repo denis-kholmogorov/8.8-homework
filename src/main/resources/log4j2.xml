@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+    <appenders>
+
+        <File name="SearchStations" fileName="logs/searchStation.log">
+            <MarkerFilter marker="SEARCH_STATION" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+
+        </File>
+        <File name="IncorrectStations" fileName="logs/incorrectInput.log">
+            <MarkerFilter marker="INCORRECT_STATION" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="Exceptions" fileName="logs/exception.log">
+            <MarkerFilter marker="EXCEPTION" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+
+    </appenders>
+    <loggers>
+        <root level="debug">
+            <appender-ref ref="SearchStations" level="info" />
+            <appender-ref ref="IncorrectStations" level="info" />
+            <appender-ref ref="Exceptions" level="info" />
+        </root>
+    </loggers>
+</configuration>
+<!--
+
+<RollingFile name="RollingFile" fileName="logs/app.log"
+             filePattern="logs/app-%d{MM-dd-yyyy}.log.gz">
+<MarkerFilter marker="FLOW" onMatch="ACCEPT" onMismatch="DENY"/>
+<PatternLayout>
+    <pattern>%d %p %c{1.} [%t] %m%n</pattern>
+</PatternLayout>
+<TimeBasedTriggeringPolicy />
+</RollingFile>-->

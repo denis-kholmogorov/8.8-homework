@@ -1,0 +1,9 @@
+2019-11-20 16:37:23.754 [main] INFO   - Для проверки работы кода
+java.io.IOException: Для проверки работы кода
+	at Main.main(Main.java:51) [classes/:?]
+2019-11-20 16:42:43.244 [main] INFO   - Для проверки работы кода
+java.io.IOException: Для проверки работы кода
+	at Main.main(Main.java:51) [classes/:?]
+2019-11-20 16:43:03.937 [main] INFO   - Для проверки работы кода
+java.io.IOException: Для проверки работы кода
+	at Main.main(Main.java:51) [classes/:?]

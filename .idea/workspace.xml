@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5e1234-1100-4917-9bdf-687150e205e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/logs/exception.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/incorrectInput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/searchStation.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RouteCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RouteCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +37,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1Tmo2SC1DSH6Z9cOHTNZpg0OvXA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559622580090" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
@@ -62,7 +71,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in SPBMetro">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SPBMetro" />
@@ -89,8 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in SPBMetro" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in SPBMetro" />
         <item itemvalue="JUnit.RouteCalculatorTests" />
       </list>
     </recent_temporary>
@@ -132,10 +141,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574169242898</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="version 1.0">
+      <created>1574169530614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574169530614</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="version 1.0" />
     <option name="LAST_COMMIT_MESSAGE" value="version 1.0" />
   </component>
@@ -152,26 +169,26 @@
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
     <state x="690" y="403" width="292" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1021@0.0.1680.1021" timestamp="1574074452758" />
-    <state x="487" y="108" width="698" height="800" key="CommitChangelistDialog2" timestamp="1574169242791">
+    <state x="487" y="108" width="698" height="800" key="CommitChangelistDialog2" timestamp="1574257627566">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state x="487" y="108" width="698" height="800" key="CommitChangelistDialog2/0.0.1680.1021@0.0.1680.1021" timestamp="1574169242791" />
-    <state width="1634" height="270" key="GridCell.Tab.0.bottom" timestamp="1574169513258">
+    <state x="487" y="108" width="698" height="800" key="CommitChangelistDialog2/0.0.1680.1021@0.0.1680.1021" timestamp="1574257627566" />
+    <state width="1634" height="270" key="GridCell.Tab.0.bottom" timestamp="1574257584475">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1021@0.0.1680.1021" timestamp="1574169513258" />
-    <state width="1634" height="270" key="GridCell.Tab.0.center" timestamp="1574169513257">
+    <state width="1634" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1021@0.0.1680.1021" timestamp="1574257584475" />
+    <state width="1634" height="270" key="GridCell.Tab.0.center" timestamp="1574257584474">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.center/0.0.1680.1021@0.0.1680.1021" timestamp="1574169513257" />
-    <state width="1634" height="270" key="GridCell.Tab.0.left" timestamp="1574169513257">
+    <state width="1634" height="270" key="GridCell.Tab.0.center/0.0.1680.1021@0.0.1680.1021" timestamp="1574257584474" />
+    <state width="1634" height="270" key="GridCell.Tab.0.left" timestamp="1574257584474">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.left/0.0.1680.1021@0.0.1680.1021" timestamp="1574169513257" />
-    <state width="1634" height="270" key="GridCell.Tab.0.right" timestamp="1574169513257">
+    <state width="1634" height="270" key="GridCell.Tab.0.left/0.0.1680.1021@0.0.1680.1021" timestamp="1574257584474" />
+    <state width="1634" height="270" key="GridCell.Tab.0.right" timestamp="1574257584475">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.right/0.0.1680.1021@0.0.1680.1021" timestamp="1574169513257" />
+    <state width="1634" height="270" key="GridCell.Tab.0.right/0.0.1680.1021@0.0.1680.1021" timestamp="1574257584475" />
     <state width="1634" height="212" key="GridCell.Tab.1.bottom" timestamp="1574089666745">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
@@ -188,25 +205,14 @@
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
     <state width="1634" height="212" key="GridCell.Tab.1.right/0.0.1680.1021@0.0.1680.1021" timestamp="1574089666745" />
-    <state x="533" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1574149805711">
+    <state x="533" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1574240860636">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state x="533" y="338" key="com.intellij.ide.util.TipDialog/0.0.1680.1021@0.0.1680.1021" timestamp="1574149805711" />
+    <state x="533" y="338" key="com.intellij.ide.util.TipDialog/0.0.1680.1021@0.0.1680.1021" timestamp="1574240860636" />
     <state x="614" y="216" width="444" height="584" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1574150377005">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
     <state x="614" y="216" width="444" height="584" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1021@0.0.1680.1021" timestamp="1574150377005" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SPBMetro$Main.ic" NAME="Main Coverage Results" MODIFIED="1574077348484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
