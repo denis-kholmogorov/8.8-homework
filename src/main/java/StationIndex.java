@@ -1,11 +1,15 @@
 import core.Line;
 import core.Station;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.*;
+
 import java.util.stream.Collectors;
 
 public class StationIndex
 {
+    private static final Logger logger = LogManager.getLogger(StationIndex.class.getName());
     HashMap<Integer, Line> number2line;
     TreeSet<Station> stations;
     TreeMap<Station, TreeSet<Station>> connections;
@@ -15,6 +19,7 @@ public class StationIndex
         number2line = new HashMap<>();
         stations = new TreeSet<>();
         connections = new TreeMap<>();
+        logger.info("Конструктор станций отработал");
     }
 
     public void addStation(Station station)

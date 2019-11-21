@@ -15,9 +15,27 @@
             <MarkerFilter marker="EXCEPTION" onMatch="ACCEPT" onMismatch="DENY"/>
             <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
+        <File name="StationIndex" fileName="logs/stationIndex.log">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="RouteCalculator" fileName="logs/routerCalculator.log">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="Line" fileName="logs/line.log">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
 
     </appenders>
     <loggers>
+        <logger name="StationIndex" level="info" additivity="false">
+            <appender-ref ref="StationIndex" level="info" />
+        </logger>
+        <logger name="RouteCalculator" level="info" additivity="false">
+            <appender-ref ref="RouteCalculator" level="info" />
+        </logger>
+        <logger name="core.Line" level="info" additivity="false">
+            <appender-ref ref="Line" level="info" />
+        </logger>
         <root level="debug">
             <appender-ref ref="SearchStations" level="info" />
             <appender-ref ref="IncorrectStations" level="info" />

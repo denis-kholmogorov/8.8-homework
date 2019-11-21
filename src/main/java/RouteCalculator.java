@@ -1,4 +1,6 @@
 import core.Station;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,14 +9,16 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
+
 public class RouteCalculator
 {
     private StationIndex stationIndex;
-
+    private static final Logger logger = LogManager.getLogger(RouteCalculator.class.getName());
     private static double interStationDuration = 2.5;
     private static double interConnectionDuration = 3.5;
 
     public RouteCalculator(StationIndex stationIndex)
+
     {
         this.stationIndex = stationIndex;
     }
@@ -23,15 +27,18 @@ public class RouteCalculator
     {
         List<Station> route = getRouteOnTheLine(from, to);
         if(route != null) {
+            logger.info("Найден путь без пересадок");
             return route;
         }
 
         route = getRouteWithOneConnection(from, to);
         if(route != null) {
+            logger.info("Найден путь c одной пересадкой");
             return route;
         }
 
         route = getRouteWithTwoConnections(from, to);
+        logger.info("Найден путь с двумя пересадками");
         return route;
     }
 
@@ -49,6 +56,7 @@ public class RouteCalculator
             }
             previousStation = station;
         }
+        logger.info("Найдено время в пути " + duration);
         return duration;
     }
 
@@ -85,6 +93,7 @@ public class RouteCalculator
         if(direction == -1) {
             Collections.reverse(route);
         }
+
         return route;
     }
 

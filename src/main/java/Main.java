@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 public class Main
 {
-    private static Logger logger;
+    private static final Logger logger = LogManager.getLogger(Main.class);
     private static String dataFile = "src/main/resources/map.json";
     private static Scanner scanner;
 
@@ -29,7 +29,6 @@ public class Main
 
     public static void main(String[] args)
     {
-        logger = LogManager.getRootLogger();
         RouteCalculator calculator = getRouteCalculator();
         System.out.println("Программа расчёта маршрутов метрополитена Санкт-Петербурга\n");
         scanner = new Scanner(System.in);
@@ -128,7 +127,7 @@ public class Main
         {
             JSONArray connection = (JSONArray) connectionObject;
             List<Station> connectionStations = new ArrayList<>();
-            connection.forEach(item ->
+                connection.forEach(item ->
             {
                 JSONObject itemObject = (JSONObject) item;
                 int lineNumber = ((Long) itemObject.get("line")).intValue();

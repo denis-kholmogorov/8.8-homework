@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5e1234-1100-4917-9bdf-687150e205e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/exception.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/incorrectInput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/searchStation.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/line.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/routerCalculator.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/stationIndex.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/exception.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/exception.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/incorrectInput.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/incorrectInput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/searchStation.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/searchStation.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RouteCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RouteCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StationIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StationIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RouteCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RouteCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StationIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StationIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/Line.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,13 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574169530614</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 2.0">
+      <created>1574257628286</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574257628286</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="version 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.0" />
+    <MESSAGE value="version 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="99" y="100" width="1482" height="822" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1574161369538">
@@ -173,22 +189,22 @@
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
     <state x="487" y="108" width="698" height="800" key="CommitChangelistDialog2/0.0.1680.1021@0.0.1680.1021" timestamp="1574257627566" />
-    <state width="1634" height="270" key="GridCell.Tab.0.bottom" timestamp="1574257584475">
+    <state width="1634" height="270" key="GridCell.Tab.0.bottom" timestamp="1574336658676">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1021@0.0.1680.1021" timestamp="1574257584475" />
-    <state width="1634" height="270" key="GridCell.Tab.0.center" timestamp="1574257584474">
+    <state width="1634" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1021@0.0.1680.1021" timestamp="1574336658676" />
+    <state width="1634" height="270" key="GridCell.Tab.0.center" timestamp="1574336658675">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.center/0.0.1680.1021@0.0.1680.1021" timestamp="1574257584474" />
-    <state width="1634" height="270" key="GridCell.Tab.0.left" timestamp="1574257584474">
+    <state width="1634" height="270" key="GridCell.Tab.0.center/0.0.1680.1021@0.0.1680.1021" timestamp="1574336658675" />
+    <state width="1634" height="270" key="GridCell.Tab.0.left" timestamp="1574336658674">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.left/0.0.1680.1021@0.0.1680.1021" timestamp="1574257584474" />
-    <state width="1634" height="270" key="GridCell.Tab.0.right" timestamp="1574257584475">
+    <state width="1634" height="270" key="GridCell.Tab.0.left/0.0.1680.1021@0.0.1680.1021" timestamp="1574336658674" />
+    <state width="1634" height="270" key="GridCell.Tab.0.right" timestamp="1574336658676">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
-    <state width="1634" height="270" key="GridCell.Tab.0.right/0.0.1680.1021@0.0.1680.1021" timestamp="1574257584475" />
+    <state width="1634" height="270" key="GridCell.Tab.0.right/0.0.1680.1021@0.0.1680.1021" timestamp="1574336658676" />
     <state width="1634" height="212" key="GridCell.Tab.1.bottom" timestamp="1574089666745">
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
@@ -213,6 +229,10 @@
       <screen x="0" y="0" width="1680" height="1021" />
     </state>
     <state x="614" y="216" width="444" height="584" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1021@0.0.1680.1021" timestamp="1574150377005" />
+    <state x="215" y="123" width="1241" height="770" key="new project wizard" timestamp="1574260397863">
+      <screen x="0" y="0" width="1680" height="1021" />
+    </state>
+    <state x="215" y="123" width="1241" height="770" key="new project wizard/0.0.1680.1021@0.0.1680.1021" timestamp="1574260397863" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SPBMetro$Main.ic" NAME="Main Coverage Results" MODIFIED="1574077348484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
